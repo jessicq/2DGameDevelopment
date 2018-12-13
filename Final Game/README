@@ -1,0 +1,39 @@
+Name: Jessica Qiu (jessicq)
+
+Course: CPSC 6160
+
+Clemson Email Address: jessicq@clemson.edu
+
+Project no: 6
+
+Project due date: December 12, 2018
+
+Project description:
+ - Swinub and his/her/its friends are enjoying a happy day and then a portal appears and sucks in swinub. Swinub needs to find a way to get back home, but the Prime Evil's forces
+   stand in the way. Will he/she/it get back home safely?
+
+The easiest part of this project:
+ 1. Implementing the sound
+ 2. Transferring gifs into frames for the sprites.
+ 3. Observer Pattern
+ 4. Singleton Pattern
+
+Problems that I had in completing this project:
+ 1. Collision Detection - player gets into a collision with a non-existing sprite
+ 2. Weird memory leaks/deleting twice errors, figured out that the issue was 'make clean'
+
+Project Description:
+ - Sprite Source: 
+   (1) Swinub - spritedatabase.net
+   (2) Spider - Baldur's Gate - BioWare (the game)
+   (3) Baal - tcrf.net/Diablo_II/Monsters (Diablo II: Expansion - the game)
+   (4) Diablo - Diablo II (the game)
+   (5) Mephisto - Diablo II (the game)
+   (6) Gulpin - photobucket.com
+   (7) Inkay - projectpokemon.org
+   (8) Skull - google.com search (I can't find it again - I'm sorry)
+   (9) Imp - spritedatabase.net
+   (10) Portal - Diablo II (the game)
+   (11) Swablu - gyfcat.com
+   (12) Goomy - Tumblr.com
+   (13) Deckard Cain - Diablo II (the game)

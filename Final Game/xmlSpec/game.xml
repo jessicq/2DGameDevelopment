@@ -1,0 +1,342 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Jessica Qiu's Animation</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>jessicq</username>
+
+<skullAmt>60</skullAmt>
+<impAmt>12</impAmt>
+<spiderAmt>3</spiderAmt>
+<mephistoTime>30000</mephistoTime>
+<diabloSpawn>25</diabloSpawn>
+<baalSpawn>50</baalSpawn>
+<tyraelSpawn>75</tyraelSpawn>
+
+<view>
+  <width>800</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>800</height>
+</world>
+
+<fps>
+  <flocX>40</flocX>
+  <flocY>60</flocY>
+  <font>
+    <file>fonts/arial.tff</file>
+    <size>24</size>
+    <red>255</red>
+    <green>255</green>
+    <blue>0</blue>
+    <alpha>0</alpha>
+  </font>
+</fps>
+
+<back>
+  <file>assets/snowback.bmp</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</back>
+
+<icemounds>
+  <file>assets/newmounds.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</icemounds>
+
+<happyland>
+  <file>assets/happyland.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</happyland>
+
+<hellfire>
+  <file>assets/hellfire.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</hellfire>
+
+<rocky>
+  <file>assets/rocky.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</rocky>
+
+<Baal>
+  <file>assets/baal.png</file>
+  <startLoc x="225" y="250"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>12</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>250</distance>
+  </chunk>
+</Baal>
+
+<Mephisto>
+  <file>assets/mephisto.png</file>
+  <startLoc x="450" y="600"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>13</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>250</distance>
+  </chunk>
+</Mephisto>
+
+<Imp>
+  <file>assets/imp.png</file>
+  <startLoc x="750" y="250"/>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <frames>15</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>5</size>
+    <distance>125</distance>
+  </chunk>
+</Imp>
+
+<ImpLeft>
+  <file>assets/impLeft.png</file>
+  <startLoc x="750" y="250"/>
+  <speedX>125</speedX>
+  <speedY>125</speedY>
+  <frames>30</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+  <chunk>
+    <size>5</size>
+    <distance>125</distance>
+  </chunk>
+</ImpLeft>
+
+<EatingSwinub>
+  <file>assets/eating.png</file>
+  <startLoc x="150" y="600"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>16</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+</EatingSwinub>
+
+<Gulpin>
+  <file>assets/gulpin.png</file>
+  <startLoc x="300" y="600"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>32</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+</Gulpin>
+
+<Swablu>
+  <file>assets/swablu.png</file>
+  <startLoc x="250" y="400"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>28</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+</Swablu>
+
+<Inkay>
+  <file>assets/inkay.png</file>
+  <startLoc x="100" y="300"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>91</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+</Inkay>
+
+<Goomy>
+  <file>assets/goomy.png</file>
+  <startLoc x="500" y="425"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <frames>55</frames>
+  <frameInterval>70</frameInterval>
+  <transparency>true</transparency>
+</Goomy>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SwinubLeft>
+  <file>assets/swinub-left.png</file>
+  <startLoc x="50" y="500"/>
+  <frames>63</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>225</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+     <size>10</size>
+     <distance>150</distance>
+  </chunk>
+  <bullet>bullet</bullet>
+</SwinubLeft>
+
+<Swinub>
+  <file>assets/swinub-right.png</file>
+  <startLoc x="50" y="500"/>
+  <frames>63</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>225</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>10</size>
+    <distance>150</distance>
+  </chunk>
+  <bullet>bullet</bullet>
+</Swinub>
+
+<bullet>
+  <file>assets/bullet.png</file>
+  <interval>350</interval>
+  <distance>200</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>120</minSpeedX>
+  <speedX>140</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</bullet>
+
+<Skull>
+  <file>assets/skull.png</file>
+  <startLoc x="225" y="30"/>
+  <safeDistance>150</safeDistance>
+  <speedX>125</speedX>
+  <speedY>125</speedY>
+  <transparency>false</transparency>
+</Skull>
+
+<Diablo>
+  <file>assets/diablo.png</file>
+  <startLoc x="775" y="315"/>
+  <frames>16</frames>
+  <frameInterval>180</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>250</distance>
+  </chunk>
+</Diablo>
+
+<DeckardCain>
+  <file>assets/cain.png</file>
+  <startLoc x="300" y="600"/>
+  <frames>8</frames>
+  <frameInterval>180</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>250</distance>
+  </chunk>
+</DeckardCain>
+
+<Tyrael>
+  <file>assets/tyrael.png</file>
+  <startLoc x="600" y="350"/>
+  <frames>60</frames>
+  <frameInterval>180</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>250</distance>
+  </chunk>
+</Tyrael>
+
+<Portal>
+  <file>assets/portal.png</file>
+  <startLoc x="120" y="500"/>
+  <frames>30</frames>
+  <frameInterval>180</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Portal>
+
+<Spider>
+  <file>assets/spider.png</file>
+  <startLoc x="750" y="580" />
+  <frames>11</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>5</size>
+    <distance>75</distance>
+  </chunk>
+</Spider>
+
+<SpiderLeft>
+  <file>assets/spiderLeft.png</file>
+  <startLoc x="750" y="580" />
+  <frames>11</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>5</size>
+    <distance>75</distance>
+  </chunk>
+</SpiderLeft>
+
+<HUD>
+  <text>To move: A = left, S = down, W = up, D = right</text>
+  <width>500</width>
+  <height>125</height>
+  <position x="300" y="350"/>
+  <textColor r="255" g="255" b="0" a="255"/>
+  <backgroundColor r="0" g="0" b="0" a="100"/>
+  <outlineColor r="0" g="0" b="0" a="255"/>
+</HUD>
+
+<HUD_POOL>
+  <text> </text>
+  <width> </width>
+  <height> </height>
+  <position x="300" y="450"/>
+  <textColor r="255" g="255" b="0" a="255"/>
+  <backgroundColor r="0" g="0" b="0" a="100"/>
+  <outlineColor r="0" g="0" b="0" a="255"/>
+</HUD_POOL>
+
+</GameData>
