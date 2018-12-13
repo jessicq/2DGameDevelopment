@@ -20,7 +20,7 @@ The easiest part of this project:
 
 Problems that I had in completing this project:
  1. Collision Detection - player gets into a collision with a non-existing sprite
- 2. Weird memory leaks/deleting twice errors, figured out that the issue was 'make clean'
+ 2. Weird memory leaks/deleting twice errors, figured out that the issue was continuously 'make'ing without using 'make clean'
 
 Project Description:
  - Sprite Source: 
